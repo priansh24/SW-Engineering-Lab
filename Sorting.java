@@ -95,6 +95,7 @@ public class Sorting {
     Employee employee2 = new Employee("171E22", "Tejas", 30, 82100);
     Employee employee3 = new Employee("171G55", "Abhi", 25, 100000);
     Employee employee4 = new Employee("152K46", "Jaya", 32, 85000);
+    Employee employee5 = new Employee("152J56", "Rekha", 30, 75000);
 
     // Create EmployeeTable object
     List<Employee> employeeList = new ArrayList<>();
@@ -102,6 +103,7 @@ public class Sorting {
     employeeList.add(employee2);
     employeeList.add(employee3);
     employeeList.add(employee4);
+    employeeList.add(employee5);
 
     EmployeeTable employeeTable = new EmployeeTable(employeeList);
 
